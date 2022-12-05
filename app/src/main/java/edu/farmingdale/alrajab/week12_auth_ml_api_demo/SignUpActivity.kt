@@ -15,6 +15,7 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivitySignUpBinding.inflate(layoutInflater)
+        //setContentView(binding.root)
         setContentView(binding.root)
 
         firebaseAuth = FirebaseAuth.getInstance()

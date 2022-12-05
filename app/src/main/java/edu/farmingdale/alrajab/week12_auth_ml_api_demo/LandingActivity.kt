@@ -8,6 +8,11 @@ import edu.farmingdale.alrajab.week12_auth_ml_api_demo.databinding.ActivityLandi
 
 class LandingActivity : AppCompatActivity() {
     private lateinit var firebaseAuth: FirebaseAuth
+
+    companion object {
+        val IMAGE_REQUEST_CODE = 1_000;
+    }
+
     lateinit var binding: ActivityLandingBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +24,23 @@ class LandingActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
+        binding.loadIamgeBtn.setOnClickListener {
+            pickImageFromGallery()
+        }
+
+    }
+
+    private fun pickImageFromGallery() {
+        val intent = Intent(Intent.ACTION_PICK)
+        intent.type = "image/*"
+        startActivityForResult(intent, IMAGE_REQUEST_CODE)
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == IMAGE_REQUEST_CODE && resultCode == RESULT_OK) {
+            binding.imageHolder.setImageURI(data?.data)
+        }
     }
 
     private fun logout() {
