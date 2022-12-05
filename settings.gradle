@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Week12_Auth_ML_API_Demo"
+rootProject.name = "AllPlayers-TestVersion"
 include ':app'

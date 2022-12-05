@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_google_sign_in.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_landing.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_sign_up.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_splash_screen.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/fragment_add_contact.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/fragment_contact.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/fragment_update_contact.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/recycler_view_contact.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/User/Desktop/ANdroid Studio Projects/Week12_Auth_ML_API_Demo/app/src/main/res/layout/activity_google_sign_in.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/Desktop/ANdroid Studio Projects/Week12_Auth_ML_API_Demo/app/src/main/res/layout/activity_landing.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/Desktop/ANdroid Studio Projects/Week12_Auth_ML_API_Demo/app/src/main/res/layout/activity_login.xml" value="0.2421875" />
