@@ -4,17 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@color/charcoal"
     tools:context=".ui.UpdateContactDialogFragment">
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="12dp"
-    android:fontFamily="sans-serif-medium"
-    android:text="@string/edit_contact"
-    android:textAlignment="center"
-    android:textColor="@color/black"
-    android:textSize="24sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/edit_contact"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="24sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_name"
@@ -28,7 +29,11 @@
             android:id="@+id/edit_text_full_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/add_user_name"/>
+            android:backgroundTint="@color/red"
+            android:drawableTint="@color/red"
+            android:hint="@string/add_user_name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/red" />
 
     </com.google.android.material.textfield.TextInputLayout>
 

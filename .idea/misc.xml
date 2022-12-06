@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/drawable/background_chat_input.xml" value="0.4585" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/drawable/ic_applogo_adobe_express.xml" value="0.4585" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_google_sign_in.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_landing.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/Week12_Auth_ML_API_DemoV3/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />

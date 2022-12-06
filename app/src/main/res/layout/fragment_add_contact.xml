@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@color/charcoal"
     tools:context=".ui.AddContactDialogFragment">
 
 <TextView
@@ -13,22 +14,24 @@
     android:fontFamily="sans-serif-medium"
     android:text="@string/add_new_contact"
     android:textAlignment="center"
-    android:textColor="@color/black"
+    android:textColor="@color/red"
     android:textSize="24sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        android:textColorHint="@color/red">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_text_full_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/add_user_name"/>
+            android:backgroundTintMode="add"
+            android:hint="@string/add_user_name"
+            android:textColor="@color/white" />
 
     </com.google.android.material.textfield.TextInputLayout>
 

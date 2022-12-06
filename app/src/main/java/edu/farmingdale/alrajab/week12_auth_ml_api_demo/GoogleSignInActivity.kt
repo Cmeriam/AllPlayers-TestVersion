@@ -26,6 +26,7 @@ class GoogleSignInActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityGoogleSignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

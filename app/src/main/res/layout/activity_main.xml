@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.farmingdale.alrajab.allplayers_friendslist.ui.MainActivity">
+    android:background="@color/charcoal"
+    tools:context="edu.farmingdale.alrajab.week12_auth_ml_api_demo.ui.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"

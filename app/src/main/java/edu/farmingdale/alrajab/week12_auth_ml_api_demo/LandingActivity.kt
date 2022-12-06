@@ -7,6 +7,8 @@ import com.google.firebase.auth.FirebaseAuth
 import edu.farmingdale.alrajab.week12_auth_ml_api_demo.databinding.ActivityLandingBinding
 
 class LandingActivity : AppCompatActivity() {
+
+
     private lateinit var firebaseAuth: FirebaseAuth
 
     companion object {
