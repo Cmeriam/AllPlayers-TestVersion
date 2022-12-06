@@ -41,7 +41,7 @@
         android:id="@+id/button_update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black"
+        android:background="@color/red"
         android:text="@string/update_contact"
         android:textColor="@color/white"/>
 </LinearLayout>
